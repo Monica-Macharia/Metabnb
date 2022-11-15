@@ -6,6 +6,8 @@ import PlaceToStay from "./PlaceToStay";
 import NFTs from "./NFTs.js";
 import Community from "./Community.js";
 import NavBar from './NavBar';
+import Footer from './Footer';
+
 function App() {
   return (
     <main>
@@ -16,6 +18,7 @@ function App() {
         <Route path="/NFTs" element={<NFTs/>}/>
         <Route path="/Community" element={<Community/>}/>
       </Routes>
+      {<Footer />}
     </main>
   )
 }
