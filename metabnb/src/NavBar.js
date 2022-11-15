@@ -1,8 +1,13 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import {GrFormNext} from "react-icons/gr";
+import {MdOutlineCancelPresentation} from "react-icons/md";
 
 function NavBar() {
+
+  
   return (
     <div className="intro">
    
@@ -16,8 +21,18 @@ function NavBar() {
         <NavLink to ="./NFTs" exact="true">NFTs</NavLink>
         <NavLink to ="./Community" exact="true">Community</NavLink>
     </nav>
-    <button>Connect wallet</button>
     </div>
+    <Popup trigger={<button> Connect wallet </button>}
+    position= "center">
+    <h1 className="wallet">Connect Wallet < MdOutlineCancelPresentation/></h1>
+
+    <p>Choose your preferred walllet.</p>
+    <button className= "meta1"> <img className="mask" src="/metamask.png" alt="mask" /> Metamask < GrFormNext/>
+    </button>
+    <button className= "meta2"> <img className="connect" src="/connect.png" alt="connect" />  WalletConnect < GrFormNext/>
+    </button>
+
+  </Popup>
     </div>
   )
 }
