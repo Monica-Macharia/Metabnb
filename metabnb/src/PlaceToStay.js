@@ -1,8 +1,10 @@
 import React from "react";
+import Bar from "./Bar.js";
 
 function PlaceToStay(){
     return(
         <>
+          {<Bar />}
         <div className="stay">
         <div className="places">
         <img className="place1" src="/Group 4048.png" alt="place1" />
