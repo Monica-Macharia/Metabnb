@@ -3,7 +3,7 @@ import React from "react";
 function Home(){
     return(
         <div className="home">
-       <p className="access">Rent a <h3 className="edit">Place</h3> away from <br/> <h3 className="edit">Home</h3> in the <h3 className="edit">Metaverse</h3>
+       <p className="access">Rent a <b style={{color: "#A02279"}}>Place </b>away from<br/> <b style={{color: "#A02279"}}>Home</b> in the <b style={{color: "#A02279"}}>Metaverse</b>
        </p>
        <p className="small">
        we provide you access to luxury and affordable houses<br/> in the metaverse, get a chance to turn your<br/> imagination to reality at your comfort zone

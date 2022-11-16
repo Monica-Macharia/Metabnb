@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,110 @@
   to {
     transform: rotate(360deg);
   }
+} */
+img.logo{
+  position: absolute;
+left: 0%;
+
+right: 96.61%;
+top: 7.64%;
+bottom: 16.59%;
+background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+}
+img.title{
+  /* position: absolute; */
+  Width: 188.1px;
+Height: 32.19px;
+margin-top: 2%;
+margin-left: 17%;
+
+/* left: 3.62%; */
+/* right: 81.21%;
+top: 16.96%;
+bottom: 15.97%; */
+
+}
+nav.bars{
+  text-decoration: none;
+  margin-top: -1.5%;
+margin-left: 30%;
+
+}
+a.bar1{
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-decoration: none;
+color: #434343;
+padding: 4%;
+}
+a.bar2{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #434343;
+  padding: 4%;
+}
+a.bar3{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #434343;
+  padding:4%;
+}
+a.bar4{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #434343;
+  padding: 4%
+}
+button.popup{
+  
+  margin-left: 80%;
+margin-top: -45%;
+
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border-radius: 10px;
+
+}
+p.access{
+  text-align: left;
+  margin-left:17%;
+  margin-top: 10%;
+ 
+  /* width: 64px;
+  height: 14px;  */
+  
+  font-family: 'Red Rose';
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 56px;
+  /* line-height: 140%; */
+  /* or 78px */
+  
+  /* letter-spacing: -0.02em; */
+  
+  /* text black */
+  
+  color: #434343; 
+  
+
 }

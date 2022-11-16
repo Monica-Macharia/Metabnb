@@ -12,17 +12,18 @@ function NavBar() {
     <div className="intro">
    
       {/* <img className="logo" src={window.location.origin + './Vector.png'} alt='logo'/> */}
-      <img className="logo" src="/Vector.png" alt="i" />
-      <h1 className="title">Metabnb</h1>
+      {/* <img className="logo" src="/Vector.png" alt="i" /> */}
+      <img className="title" src="/color1.png" alt="colo" />
+    
     <div className= "navs">
         <nav className ="bars">
-        <NavLink to ="./" exact="true">Home</NavLink>
-        <NavLink to ="./PlaceToStay" exact="true">Place To Stay</NavLink>
-        <NavLink to ="./NFTs" exact="true">NFTs</NavLink>
-        <NavLink to ="./Community" exact="true">Community</NavLink>
+        <NavLink to ="./" exact="true"className="bar1">Home</NavLink>
+        <NavLink to ="./PlaceToStay" exact="true" className="bar2">Place To Stay</NavLink>
+        <NavLink to ="./NFTs" exact="true" className="bar3">NFTs</NavLink>
+        <NavLink to ="./Community" exact="true" className="bar4">Community</NavLink>
     </nav>
     </div>
-    <Popup trigger={<button> Connect wallet </button>}
+    <Popup trigger={<button className="popup"> Connect wallet </button>}
     position= "center">
     <h1 className="wallet">Connect Wallet < MdOutlineCancelPresentation/></h1>
 
