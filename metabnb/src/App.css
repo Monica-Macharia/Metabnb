@@ -415,13 +415,11 @@ button#cloud{
 border: 1px solid #B4B4B4;
 border-radius: 8px;
 text-align: center;
-/* margin-top: -2%; */
-/* margin-top:-6%; */
-/* margin-top:-8%; */
-/* margin-top:-10%; */
-margin-top:-10%;
-margin-left: 77%;
-top: 20%;
+position:absolute;
+top:17%;
+margin-left: 72%;
+width: 7%;
+/* top: 20%; */
 }
 div.places{
   margin-left: 17%;
