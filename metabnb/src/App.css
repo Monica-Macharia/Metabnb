@@ -165,7 +165,7 @@ button.meta2{
   flex-direction: row;
   /* justify-content: space-between; */
   align-items: center;
-  padding: 12px 20px;
+  padding: 12px 20px ;
   /* gap: 135px; */
   
   width: 536px;
@@ -183,6 +183,7 @@ button.meta2{
   font-weight: 600;
   font-size: 18px;
   line-height: 23px;
+  margin-top: 10px;
   /* identical to box height */
   
 }
