@@ -7,17 +7,17 @@ function Bar(){
         <>
       
         <nav className ="placebars">
-        <NavLink to ="./Restaurant" exact="true">Resturant</NavLink>
-        <NavLink to ="./Cottage" exact="true">Cottage</NavLink>
-        <NavLink to ="./Castle" exact="true">Castle</NavLink>
-        <NavLink to ="./FantastCity" exact="true">fantast city</NavLink>
-        <NavLink to ="./Beach" exact="true">beach</NavLink>
-        <NavLink to ="./Carbins" exact="true">Carbins</NavLink>
-        <NavLink to ="./OffGrid" exact="true">Off-grid</NavLink>
-        <NavLink to ="./Farm" exact="true">Farm</NavLink>
+        <NavLink to ="./Restaurant" className="one" exact="true">Resturant</NavLink>
+        <NavLink to ="./Cottage" className="two"exact="true">Cottage</NavLink>
+        <NavLink to ="./Castle" className="three"exact="true">Castle</NavLink>
+        <NavLink to ="./FantastCity" className="four"exact="true">fantast city</NavLink>
+        <NavLink to ="./Beach" className="five"exact="true">beach</NavLink>
+        <NavLink to ="./Carbins" className="six"exact="true">Carbins</NavLink>
+        <NavLink to ="./OffGrid" className="seven"exact="true">Off-grid</NavLink>
+        <NavLink to ="./Farm" className="eight"exact="true">Farm</NavLink>
    
     </nav>
-    <button>Location <img className="setting" src="/filter.png" alt="setting" /></button>
+    <button id= "cloud">Location <img className="setting" src="/filter.png" alt="setting" /></button>
         </>
     )
 }

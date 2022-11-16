@@ -4,6 +4,7 @@ import Bar from "./Bar.js";
 function PlaceToStay(){
     return(
         <>
+         {/* <h2 className="lost"> Inspiration for your next adventure </h2> */}
           {<Bar />}
         <div className="stay">
         <div className="places">

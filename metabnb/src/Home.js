@@ -20,12 +20,12 @@ function Home(){
        </form>
        <img className="stock" src="/Group 4028.png" alt="stocks" />
        
-       <nav >
+       <nav id="bottom" >
         <img className="label1" src="/Group 59537.png" alt="label1" />
        <img className="label2" src="/Group 4040.png" alt="label2" />
        <img className="label3" src="/Frame 4041.png" alt="label3" />
         </nav>
-        <h2 className="lost"> Inspiration for your next adventure </h2>
+       
         </div>
     )
 }
