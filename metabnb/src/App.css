@@ -504,3 +504,56 @@ div#five{
   color:white;
   padding-bottom: 1%;
 }
+div.nft{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border: 1px solid #000000;
+margin-top:3%;
+}
+h2.nf{
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: white;
+margin-top: 10%;
+margin-left: 17%
+}
+h1.hide{
+ position:absolute;
+ background-color: #A02279;
+ height:9%;
+ padding-top:1%;
+ margin-top: 0%;
+ margin-left: 0%;
+ color:#A02279;
+ width:100%;
+}
+button.learning{
+  /* background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%); */
+border-radius: 8px;
+color: black;
+height:48px;
+/* margin-top: 5%; */
+position:absolute;
+right: 78%;
+top: 70%;
+}
+img.three{
+  margin-top: -20%;
+margin-left: 39%
+}
+p.discover{
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 35px;
+margin-top: 3%;
+margin-left: 17%;
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
