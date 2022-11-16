@@ -104,6 +104,93 @@ a.bar4{
   color: #434343;
   padding: 4%
 }
+div#popup-1.popup-content{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 600px;
+height: 326px;
+margin-top: 20%;
+padding-left:2%;
+
+/* align-items: center; */
+margin-left: -30%;
+
+/* DTC White */
+
+background: #FFFFFF;
+border-radius: 16px;
+}
+button.meta1{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+align-items: center;
+padding: 12px 20px;
+/* gap: 135px; */
+
+width: 536px;
+height: 68px;
+
+/* DTC Light Gray (BG) */
+
+background: #F8F9FA;
+/* DTC Mid Gray */
+
+border: 1px solid #CFD8DC;
+border-radius: 12px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+
+}
+button.meta2{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 12px 20px;
+  /* gap: 135px; */
+  
+  width: 536px;
+  height: 68px;
+  
+  /* DTC Light Gray (BG) */
+  
+  background: #F8F9FA;
+  /* DTC Mid Gray */
+  
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+}
+svg{
+  position:relative;
+  left: 270px;
+  
+}
 button.popup{
   
   /* margin-left: 80%;
@@ -421,15 +508,15 @@ img.dark{
 div.tweets{
   color: white;
   margin-top: 2%;
-  margin-left: 16.7%;
+  margin-left: 2%;
   
 }
 div#two{
-  margin-top: -1.5%;
+  margin-top: -1.2%;
   margin-left: 3%;
 }
 div#three{
-  margin-top: -1.4%;
+  margin-top: -1.2%;
   margin-left: 6%;
 }
 img.at{
