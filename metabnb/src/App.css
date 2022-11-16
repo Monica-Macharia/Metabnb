@@ -401,3 +401,58 @@ img.place16{
   padding-right: 2%;
   padding-bottom: 2%;
 }
+div#foot{
+margin-top: 5%;
+width: 1840px;
+height: 322px;
+left: 0px;
+top: 1970px;
+
+background: #1D1D1E;
+}
+img.dark{
+  margin-top: 4%;
+  margin-left: 16.7%;
+}
+div.tweets{
+  color: white;
+  margin-top: 2%;
+  margin-left: 16.7%;
+  
+}
+div#two{
+  margin-top: -1.5%;
+  margin-left: 3%;
+}
+div#three{
+  margin-top: -1.4%;
+  margin-left: 6%;
+}
+img.at{
+  margin-top: 2%;
+  margin-left: 16.7%;
+}
+div.lister{
+  margin-top: -12%;
+  margin-left: 40%; 
+}
+h2#first{
+  color: white;
+  padding-bottom: 1%;
+}
+div#second{
+  color: white;
+  padding-bottom: 1%;
+}
+div#third{
+  color: white;
+  padding-bottom: 1%;
+}
+div#four{
+  color: white;
+  padding-bottom: 1%;
+}
+div#five{
+  color:white;
+  padding-bottom: 1%;
+}
