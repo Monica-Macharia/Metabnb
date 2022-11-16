@@ -433,10 +433,58 @@ img.at{
   margin-left: 16.7%;
 }
 div.lister{
-  margin-top: -12%;
+  margin-top: -9%;
   margin-left: 40%; 
 }
+div.row{
+  margin-top: -11%;
+  margin-left: 60%;
+}
+div.me{
+  margin-top: -10%;
+  margin-left: 75%;
+}
+div#eleven{
+  color: white;
+  padding-bottom: 1%;
+}
+div#twelve{
+  color: white;
+  padding-bottom: 1%;
+}
+div#thirteen{
+  color: white;
+  padding-bottom: 1%;
+}
+div#fourteen{
+  color: white;
+  padding-bottom: 1%;
+}
+div#moja{
+  color: white;
+  padding-bottom: 1%;
+}
+div#mbili{
+  color: white;
+  padding-bottom: 1%;
+}
+div#tatu{
+  color: white;
+  padding-bottom: 1%;
+}
+div#nne{
+  color: white;
+  padding-bottom: 1%;
+}
 h2#first{
+  color: white;
+  padding-bottom: 1%;
+}
+h2#hue{
+  color: white;
+  padding-bottom: 1%;
+}
+h2#reach{
   color: white;
   padding-bottom: 1%;
 }

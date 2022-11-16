@@ -8,7 +8,7 @@ import {SlSocialTwitter} from "react-icons/sl";
 function Footer(){
     return(
         <div id="foot">
-        <img className= "dark" src="/black.png" alt="propt"/> <h2>Metabnb</h2>
+        <img className= "dark" src="/black.png" alt="propt"/> 
        <div className="tweets"> 
        <div id="one"><TbBrandFacebook /></div>
        <div id="two"><TbBrandInstagram /></div>
@@ -37,6 +37,13 @@ function Footer(){
             <div id="mbili">Farms</div>
             <div id="tatu">Beach</div>
             <div id="nne">Learn more</div>
+        </div>
+        <div className="me">
+            <div><h2 id="reach">About us</h2></div>
+            <div id="eleven">Road map</div>
+            <div id="twelve">Creators</div>
+            <div id="thirteen">Career</div>
+            <div id="fourteen">Contact us</div>
         </div>
         </div>
     )
