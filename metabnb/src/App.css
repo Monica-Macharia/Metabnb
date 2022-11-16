@@ -402,7 +402,7 @@ img.place16{
   padding-bottom: 2%;
 }
 div#foot{
-margin-top: 5%;
+margin-top: 0%;
 width: 1840px;
 height: 322px;
 left: 0px;
@@ -541,7 +541,12 @@ top: 70%;
 }
 img.three{
   margin-top: -20%;
-margin-left: 39%
+margin-left: 39%;
+margin-bottom: 5%;
+}
+p#hide{
+  margin-bottom: 25%;
+  color:white;
 }
 p.discover{
   font-family: 'Red Rose';

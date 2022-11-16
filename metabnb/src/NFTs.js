@@ -8,7 +8,7 @@ function NFTs(){
           
             <img className="three" src="/see.png" alt="three" />
          <button className= "learning">Learn more</button>
-         <h1 className="hide">6</h1> </div>
+         </div>
 
     )
 }
