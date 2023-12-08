@@ -285,9 +285,10 @@ text-align: center;
 color: #FFFFFF
 }
 img.stock{
-
+  position: absolute;
   margin-left:60%;
-  margin-top: -50%;
+  margin-top: -25%;
+  padding: 0;
 }
 nav#bottom{
   margin-top: 7%;
@@ -526,10 +527,10 @@ div.lister{
   margin-top: -10%;
   margin-left: 40%; 
 }
-div.row{
+/* div.row{
   margin-top: -13%;
   margin-left: 60%;
-}
+} */
 div.me{
   margin-top: -12%;
   margin-left: 75%;
@@ -651,4 +652,15 @@ background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 
+}
+.container{
+  margin-top: 7rem;
+}
+.card{
+  margin-top: 7rem;
+  padding: 2rem 10rem 0 10rem;
+  
+}
+.img-fluid{
+  margin-top: 1rem;
 }
